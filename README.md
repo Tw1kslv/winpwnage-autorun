@@ -14,3 +14,5 @@ where a single-click payload is more useful than a script.
 On execution, the binary behaves exactly as if you had run:
 
 `python main.py --use uac --id 13 --payload c:\windows\system32\cmd.exe`
+
+Why method 13? Because it actually works and doesn't even trigger Windows defender (Windows 11).
